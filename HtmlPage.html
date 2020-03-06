@@ -1,38 +1,61 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>sign</title>
+    <title> FUElogin</title>
+    <style>
+
+        body {
+             font-family: "Times New Roman", Times, serif;
+             font-style: normal;
+   height: 100px;
+  width: 500px;
+background-image: url("soso.jpg") ;
+background-repeat: repeat;
+ position: relative;
+  text-align: center;
+                      
+        }
+        label {
+          color:black;
+            margin-left: 80px;
+            padding-bottom: 10px;
+            height: 50px;  
+             font-size:70px;}
+           input
+        {
+        
+             font-size:30px;
+        }
+    </style>
 </head>
-   
 <body>
-     <form action="/" method="post">
-         <table>
-             <tr>
-                 <td><label>username:</label></td>
-                 <td>
-                     <input type="text" name="usern" value="" />
-                     
-                     </td>
 
-             </tr>
-             <tr>
-                 <td><label>password:</label></td>
-                 <td>
-                     <input type="password" name="pass" value="" />
-                     
-                     </td>
+    <form action="/" method="post">
+ 
 
-             </tr>
-             <tr>
+  
+    <table>   
+        <tr>
+            
+           
+            <td><label>Username</label> <text-align: center/>;</td>
+             
+            <td>
+                <input type="text" name="username" value="" /></td>
+        </tr>
+                <tr>
+            <td><label>password</label></td>
+            <td>
+                <input type="password" name="password" value="" /></td>
+        </tr>
+                        <tr>
+  
+            <td>
+                <input type="submit" name="submit" value="Login" /></td>
+        </tr>
+       
+    </table>
+        </form>
 
-
-                 <td>
-                      <input type="submit" name="submit" value="sign" />
-
-                 </td>
-             </tr>
-
-         </table>
-         </form>
 </body>
 </html>
